@@ -12,8 +12,8 @@ function App() {
       <div>
         <TwoHeading />
         <div className='main w-full mt-3 flex'>
-          <Discussion />
-          <Market />
+          <Discussion className="dis" />
+          <Market className='mrk' />
         </div>
       </div>
     </div>
