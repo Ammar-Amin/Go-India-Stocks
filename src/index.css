@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (width < 770px) {
+    .sideParent {
+        height: 100%;
+        position: fixed;
+    }
+
+    .sidebtn {
+        margin: 300px 0;
+    }
+
+    .main {
+        margin: 0px;
+    }
+
+    .head {
+        width: 100%;
+    }
+
+    .discussion,
+    .market {
+        width: 50%;
+    }
+
+    .dHead,
+    .mHead {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        color: white;
+        background-color: rgb(22, 78, 99);
+    }
+
+    .dHead {
+        padding: 17px 0;
+    }
+
+    .dHead:hover,
+    .mHead:hover {
+        background-color: rgb(63, 63, 70);
+    }
+
+    .dItemParent,
+    .mItemParent {
+        width: 80%;
+        margin: 0 30px;
+    }
+
+    .dItems {
+        width: 100%;
+    }
+
+    .mItemParent {
+        display: none;
+    }
+
+}
