@@ -16,11 +16,9 @@ This project is a UI assignment for 'Go India Stocks'. It features a responsive 
 
 2. Navigate to the project directory: cd GoIndiaStocks
 
-3. Install dependencies: npm install
-4. 
+3. Install dependencies: npm install. 
 
-## Run
-Start the development server: npm run dev
+4. Start the development server: npm run dev
 
 
 ## Live Link
